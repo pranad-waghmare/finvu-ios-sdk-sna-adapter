@@ -1,0 +1,11 @@
+framework module FinvuSDKSNAAdapter {
+  umbrella header "FinvuSDKSNAAdapter-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module FinvuSDKSNAAdapter.Swift {
+  header "FinvuSDKSNAAdapter-Swift.h"
+  requires objc
+}
