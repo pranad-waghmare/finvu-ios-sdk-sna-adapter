@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
                            "FinvuAuthenticationSDK.xcframework", 
                            "OtplessFinVu.xcframework"
     
-    s.dependency 'FinvuSDK/Core'
+    s.dependency 'FinvuSDK'
     s.frameworks = 'Foundation', 'UIKit', 'CoreFoundation'
     s.libraries = 'c++', 'z'
   end
