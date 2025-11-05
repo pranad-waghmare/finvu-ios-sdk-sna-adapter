@@ -1,0 +1,632 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "FinvuSDKSNAAdapter",
+    "printedName": "FinvuSDKSNAAdapter",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FinvuAuthenticationSDK",
+        "printedName": "FinvuAuthenticationSDK",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FinvuSDK",
+        "printedName": "FinvuSDK",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuEnvUtils",
+        "printedName": "FinvuEnvUtils",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "getFinvuAuthEnvironment",
+            "printedName": "getFinvuAuthEnvironment(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuAuthEnvironment",
+                "printedName": "FinvuAuthenticationSDK.FinvuAuthEnvironment",
+                "usr": "c:@M@FinvuAuthenticationSDK@E@FinvuAuthEnvironment"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuEnvironment",
+                "printedName": "FinvuSDK.FinvuEnvironment",
+                "usr": "c:@M@FinvuSDK@E@FinvuEnvironment"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuEnvUtils(cm)getFinvuAuthEnvironment:",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A8EnvUtilsC03getA15AuthEnvironmenty0A17AuthenticationSDK0afG0O0aI00aG0OFZ",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "static": true,
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuEnvUtils",
+                "printedName": "FinvuSDKSNAAdapter.FinvuEnvUtils",
+                "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuEnvUtils"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuEnvUtils(im)init",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A8EnvUtilsCACycfc",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuEnvUtils",
+        "mangledName": "$s18FinvuSDKSNAAdapter0A8EnvUtilsC",
+        "moduleName": "FinvuSDKSNAAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "os.log",
+        "printedName": "os.log",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FinvuAuthenticationSDK",
+        "printedName": "FinvuAuthenticationSDK",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "Import",
+        "name": "FinvuSDK",
+        "printedName": "FinvuSDK",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FinvuSnaAuthProviderImpl",
+        "printedName": "FinvuSnaAuthProviderImpl",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FinvuSnaAuthProviderImpl",
+                "printedName": "FinvuSDKSNAAdapter.FinvuSnaAuthProviderImpl",
+                "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)init",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplCACycfc",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "isAvailable",
+            "printedName": "isAvailable()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)isAvailable",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC11isAvailableSbyF",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "objc_name": "isAvailable",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setup",
+            "printedName": "setup(config:phone:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "FinvuSDK.FinvuSnaAuthConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FinvuSnaAuthConfig",
+                    "printedName": "FinvuSDK.FinvuSnaAuthConfig",
+                    "usr": "c:@M@FinvuSDK@objc(cs)FinvuSnaAuthConfig"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)setupWithConfig:phone:",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC5setup6config5phoney0A3SDK0acD6ConfigCSg_SStF",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "objc_name": "setupWithConfig:phone:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "performSna",
+            "printedName": "performSna(authMeta:completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[Swift.String : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(FinvuSDK.FinvuSnaAuthSuccessResponse?, Foundation.NSError?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(FinvuSDK.FinvuSnaAuthSuccessResponse?, Foundation.NSError?)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "FinvuSDK.FinvuSnaAuthSuccessResponse?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "FinvuSnaAuthSuccessResponse",
+                            "printedName": "FinvuSDK.FinvuSnaAuthSuccessResponse",
+                            "usr": "c:@M@FinvuSDK@objc(cs)FinvuSnaAuthSuccessResponse"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Optional",
+                        "printedName": "Foundation.NSError?",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "NSError",
+                            "printedName": "Foundation.NSError",
+                            "usr": "c:objc(cs)NSError"
+                          }
+                        ],
+                        "usr": "s:Sq"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)performSnaWithAuthMeta:completion:",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC07performC08authMeta10completionySDySSypGSg_y0A3SDK0acD15SuccessResponseCSg_So7NSErrorCSgtctF",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "objc_name": "performSnaWithAuthMeta:completion:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cancel",
+            "printedName": "cancel()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)cancel",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC6cancelyyF",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "objc_name": "cancel",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "onDestroy",
+            "printedName": "onDestroy()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl(im)onDestroy",
+            "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC9onDestroyyyF",
+            "moduleName": "FinvuSDKSNAAdapter",
+            "objc_name": "onDestroy",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@FinvuSDKSNAAdapter@objc(cs)FinvuSnaAuthProviderImpl",
+        "mangledName": "$s18FinvuSDKSNAAdapter0A19SnaAuthProviderImplC",
+        "moduleName": "FinvuSDKSNAAdapter",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "FinvuSnaAuthProvider",
+            "printedName": "FinvuSnaAuthProvider",
+            "usr": "c:@M@FinvuSDK@objc(pl)FinvuSnaAuthProvider",
+            "mangledName": "$s8FinvuSDK0A15SnaAuthProviderP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "FinvuSDKSNAAdapter"
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 141,
+      "length": 4,
+      "value": "10.0"
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 191,
+      "length": 4,
+      "value": "15.0"
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 245,
+      "length": 3,
+      "value": "0.3"
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 347,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "FloatLiteral",
+      "offset": 402,
+      "length": 4,
+      "value": "0.25"
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 500,
+      "length": 7,
+      "value": "\"token\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 597,
+      "length": 9,
+      "value": "\"success\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 639,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 675,
+      "length": 5,
+      "value": "\"sna\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 791,
+      "length": 27,
+      "value": "\"SNA authentication failed\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 857,
+      "length": 19,
+      "value": "\"Operation timeout\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 914,
+      "length": 36,
+      "value": "\"startAuth failed without exception\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "StringLiteral",
+      "offset": 1042,
+      "length": 10,
+      "value": "\"FinvuSNA\""
+    },
+    {
+      "filePath": "\/Users\/pranad\/Documents\/Projects\/finvu-mobile\/finvu_ios_sdk\/SNAAdapter_Standalone\/Classes\/FinvuSnaConstants.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1144,
+      "length": 2,
+      "value": "-1"
+    }
+  ]
+}

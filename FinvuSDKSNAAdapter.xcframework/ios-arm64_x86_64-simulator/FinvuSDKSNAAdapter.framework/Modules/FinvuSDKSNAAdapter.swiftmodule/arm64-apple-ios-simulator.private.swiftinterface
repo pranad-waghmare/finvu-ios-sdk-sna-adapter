@@ -1,0 +1,28 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0.3 effective-5.10 (swiftlang-6.0.3.1.10 clang-1600.0.30.1)
+// swift-module-flags: -target arm64-apple-ios13.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name FinvuSDKSNAAdapter
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import FinvuAuthenticationSDK
+import FinvuSDK
+@_exported import FinvuSDKSNAAdapter
+import Foundation
+import Swift
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+import os.log
+import os
+@_inheritsConvenienceInitializers @objc public class FinvuEnvUtils : ObjectiveC.NSObject {
+  @objc public static func getFinvuAuthEnvironment(_ finvuEnvironment: FinvuSDK.FinvuEnvironment) -> FinvuAuthenticationSDK.FinvuAuthEnvironment
+  @objc override dynamic public init()
+  @objc deinit
+}
+@_inheritsConvenienceInitializers @objc public class FinvuSnaAuthProviderImpl : ObjectiveC.NSObject, FinvuSDK.FinvuSnaAuthProvider {
+  @objc override dynamic public init()
+  @objc public func isAvailable() -> Swift.Bool
+  @objc public func setup(config: FinvuSDK.FinvuSnaAuthConfig?, phone: Swift.String)
+  @objc public func performSna(authMeta: [Swift.String : Any]?, completion: @escaping FinvuSDK.CompletionHandlerWithData<FinvuSDK.FinvuSnaAuthSuccessResponse>)
+  @objc public func cancel()
+  @objc public func onDestroy()
+  @objc deinit
+}
