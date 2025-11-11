@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "FinvuSDKSNAAdapter"
-  s.version      = "1.0.1"
+  s.version      = "1.0.2"
   s.summary      = "SNA Adapter for FinvuSDK"
   s.description  = "Optional SNA (Silent Network Authentication) adapter for FinvuSDK"
   s.homepage     = "https://github.com/Cookiejar-technologies/finvu-ios-sdk-sna-adapter.git"
